@@ -1,1 +1,29 @@
 /*? *** This is where we will put CSS ***  */
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(/Images/pirates-computer-skeleton-minimalism-wallpaper-preview.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: #c3cd06;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    border: 5px solid #9a9a9a30;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+/** Formatting added  */
+
+li{ 
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    color: #c3cd06;
+    margin: 0px 10px;
+    font-size: 150%;
+}
